@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
 	printf("7 + 8 = %d\n", 7 + 8);
 	printf("7 - 8 = %d\n", 7 - 8);
@@ -22,10 +22,10 @@
 	printf("성명: %s\n", str);
 	printf("나이 : %d\n", a);
 	printf("주소 : %s\n", str1);
-}*/
+}
 //여러 종류의 변수 입력받고 출력하기
 
-/*void main()
+void main()
 {
 	float a, b, c;
 	float sum, average;
@@ -40,10 +40,10 @@
 	sum = a + b + c, average = sum / 3;
 	
 	printf("합은 %f이고 평균은 %f입니다.", sum, average);
-}*/
+}
 //programming_1: 실수 입력값들의 합과 평균 구하는 프로그램
 
-/*void main()
+void main()
 {
 	float mile;
 	float meter;
@@ -51,10 +51,10 @@
 	scanf_s("%f", &mile);
 	meter = mile * 1609;
 	printf("%f마일은 %f미터입니다. ", mile, meter);
-}*/
+}
 //Programming_2: 마일을 미터로 변환하는 프로그램
 
-/*void main() 
+void main() 
 {
 	double r, h, s;
 	printf("삼각형의 밑변: ");
@@ -65,10 +65,10 @@
 	s = r * h / 2;
 
 	printf("삼각형의 넓이: %lf", s);
-}*/
+}
 //Programming_3: 삼각형 넓이 계산하는 프로그램
 
-/*void main()
+void main()
 {
 	double F, C;
 	printf("화씨값을 입력하세요: ");
@@ -76,11 +76,11 @@
 	
 	C = (5.0 / 9.0) * (F - 32.0);
 	printf("섭씨값은 %lf도입니다.", C);
-}*/
+}
 //Programming_4: 화씨값을 섭씨값으로 계산하는 프로그램
 
 
-/*void main() {
+void main() {
 
 	double x;
 	double y;
@@ -91,11 +91,11 @@
 
 	printf("다항식의 값은 %lf", y);
 
-}*/ 
+} 
 //Programming_5: 실수형 변수 받아 계산하는 다항식 예제
 
 
-/*void main()
+void main()
 {
 	float weight;
 	printf("몸무게를 입력하세요(단위: kg): ");
@@ -104,5 +104,5 @@
 	float moonweight = weight * 0.17;
 	printf("달에서의 몸무게는 %fkg입니다.", moonweight);
 	
-}*/
+}
 //Programming_6: 실수형 변수 받아 달에서의 몸무게 계산하는 예제
